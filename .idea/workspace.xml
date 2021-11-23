@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8047ae0-8f44-4ba2-927d-6a5e0308cddd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="qroylu64" />
+  </component>
+  <component name="ProjectId" id="21DyHKBvDyc81RT4D2oRFhity8n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8047ae0-8f44-4ba2-927d-6a5e0308cddd" name="Default Changelist" comment="" />
+      <created>1637489864099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637489864099</updated>
+      <workItem from="1637489865462" duration="12945000" />
+      <workItem from="1637653182368" duration="57000" />
+      <workItem from="1637653262998" duration="20301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
