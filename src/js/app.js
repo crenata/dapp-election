@@ -30,6 +30,18 @@ App = {
         });
     },
 
+    connectAccount: () => {
+        if (typeof ethereum !== "undefined") {
+            ethereum.request({method: "eth_requestAccounts"});
+        } else if (typeof web3 !== "undefined") {
+            try {
+                ethereum.enable();
+            } catch (e) {
+                console.error(e);
+            }
+        }
+    },
+
     listenForAccount: () => {
         if (typeof ethereum !== "undefined") {
             ethereum.on("accountsChanged", (accounts) => {
@@ -55,6 +67,13 @@ App = {
         let electionInstance;
         let loader = $("#loader");
         let content = $("#content");
+        let connectButton = $("#connect-button");
+
+        if (typeof App.account !== "undefined" && App.account !== null && App.account !== "" && App.account.length >= 42) {
+            connectButton.hide();
+        } else {
+            connectButton.show();
+        }
 
         loader.show();
         content.hide();
